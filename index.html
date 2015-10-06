@@ -4,55 +4,69 @@
     <meta charset="UTF-8">
     <title>Мой первый сайт</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+   <!--- <link rel="stylesheet" href="CSS/normalize.css"> --->
 </head>
 <body>
+    <div class="line"><img src="Images/BlueLine.png" alt="Синяя линия" title="Синяя линия"></div>
     <header class="header">
-        <img src="Images/BlueLine.png" alt="Синяя линия">
-            <div>
-               <div class="leftstr">
-                     <a href="#"><img src="Images/Logo.png" alt="Логотип"></a>
-               </div>
-                <div class="rightstr">
-                     <p>Do you have questions? <strong>Call us!</strong><p>
-                     <h3>+36 901 123 456</h3>
-                </div>
-            </div>  
-        <div class="nav">
-             <a href="#">HOME PAGE</a>
-             <a href="#">OUR SERVICES</a>
-             <a href="#">OUR SOLUTIONS</a>
-             <a href="#">PRICE OFFER</a>
-             <a href="#">PHOTOGALLERY</a>
-             <a href="#">CONTACT</a>
-        </div>
-    </header>
+           <div class="leftstr logo">
+                     <a href="#"><img src="Images/Logo.png" alt="Логотип" title="Логотип"></a>
+           </div>
+           <div class="rightstr">
+               <p>Do you have questions? <strong>Call us!</strong><p>
+               <p><strong>+36 901 123 456</strong></p>
+           </div>    
+          
+   
+            <div style="clear: left"></div>
+            <nav>
+            <ul class="navbt">
+                     <li class="navbr"><a href="#">HOME PAGE</a></li>
+                     <li class="navbr"><a href="#">OUR SERVICES</a></li>
+<!-- -->                     <li class="navbr"><a href="#">OUR SOLUTIONS</a></li>
+                     <li class="navbr"><a href="#">PRICE OFFER</a></li>
+                     <li class="navbr"><a href="#">PHOTOGALLERY</a></li>
+                     <li><a href="#">CONTACT</a></li>
+                 </ul>  
+           </nav><!--end nav-->  
+           </header><!--end header-->  
+            
     <div>    
-        <a href="#"><img src="Images/Arrow1.png" alt="Назад"></a>
-        <a href="#"><img src="Images/Picture.png" alt="Картинка"></a>
-        <a href="#"><img src="Images/Arrow2.png" alt="Вперед "></a>
-    </div><!--end content-->  
+        <a class="arrow-1" href="#"><img src="Images/Arrow1.png" alt="Назад" title="Назад"></a>
+        <a class="picture" href="#"><img src="Images/Picture.png" alt="Картинка" title="Картинка"></a>
+        <a class="arrow-2" href="#"><img src="Images/Arrow2.png" alt="Вперед" title="Вперед"></a>
+    </div><!--end slide-->  
+    
     <div class="content-text">
         <div class="column-1">
-            <h2>Duis, luptatum delenit ullam corper, quis, consequat eros et ad feugiat, velit...</h2>
-            <h4>Duis, luptatum delenit ullamcorper quis, consequat eros et ad feugiat, velit aliquip</h4>
-        </div>
-        <div class="call-to-action-1">
-            <a class="btn btn-1" href="#">Photogallery</a>
+            <div class="text-1">
+                <h2>Duis, luptatum delenit ullam corper, quis, consequat eros et ad feugiat, velit...</h2>
+                <h4>Duis, luptatum delenit ullamcorper quis, consequat eros et ad feugiat, velit aliquip</h4>
+            </div>
+            <div>
+                <a class="btn-1" href="#">Photogallery</a>
+                <img class="strip-1" src="Images/strip1.png" alt="Полоска" title="Полоска">
+            </div>
         </div><!--end column-1-->    
-        <div class="column-2">
-            <h1>We are nice small Company</h1>
-            <h3>Autem magna in suscipit accumsan vel hendrerit nulla dolore, exerci iusto eum amet accumsan odio nostrud duis nulla velit aliquip dignissim nisl esse, volutpat, magna blandit. Luptatum hendrerit, sed veniam praesent suscipit nulla vero nonummy duis exerci.</h3>
-            <h4>Dignissim at qui hendrerit qui autem feugiat vel in dolor dolor augue dolor qui nisl nostrud ad zzril ut facilisis et vel blandit illum at. Nostrud feugiat quis consequat ut in facilisis ex minim nisl illum duis in wisi, adipiscing euismod exerci diam consequat molestie nisl te luptatum dignissim eu et.</h4>
-        </div>
-         <div class="call-to-action-2">
-            <a class="btn btn-2" href="#">more about us</a>
+        <div class="column-2">    
+            <div class="text-2">
+                <h1>We are nice small Company</h1>
+                <h3>Autem magna in suscipit accumsan vel hendrerit nulla dolore, exerci iusto eum amet accumsan odio nostrud duis nulla velit aliquip dignissim nisl esse, volutpat, magna blandit. Luptatum hendrerit, sed veniam praesent suscipit nulla vero nonummy duis exerci.</h3>
+                <h6>Dignissim at qui hendrerit qui autem feugiat vel in dolor dolor augue dolor qui nisl nostrud ad zzril ut facilisis et vel blandit illum at. Nostrud feugiat quis consequat ut in facilisis ex minim nisl illum duis in wisi, adipiscing euismod exerci diam consequat molestie nisl te luptatum dignissim eu et.</h6>
+            </div>
+            <div>
+                <a class="btn-2" href="#">more about us</a>
+                <img class="strip-2" src="Images/strip2.png" alt="Полоска" title="Полоска">
+            </div>
         </div><!--end column-2-->
     </div><!--end content-text-->  
-    <footer> 
-        <div class="footer">
-          <h5>Copyright 2014 | Tempees.com | All rights reserved</h5>
-          <h5>Designed with curved hands in Tempees.com</h5>
+    <footer class="footer"> 
+        <div class="leftfoot">
+            <h5>Copyright 2014 | Tempees.com | All rights reserved</h5>
+        </div>
+        <div class="rightfoot">
+            <h5>Designed with curved hands in Tempees.com</h5>
         </div>
     </footer><!--end footer-->   
 </body>
